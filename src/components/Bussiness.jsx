@@ -37,7 +37,7 @@ const Bussiness = () => (
         credit cards on the market.
       </p>
 
-      <Button styles="mt-10" />
+      <Button styles="mt-10 rounded-[10px]" />
     </div>
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
